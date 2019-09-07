@@ -10,11 +10,7 @@
 </head>   
 <body  padding-left="10%">
     
-<!--hiddenfields--> 
-<input type="hidden" name="Action"  value="CancelFulfillmentOrder" >
-<input type="hidden" name="Version"  value="CancelFulfillmentOrder" >
-<input type="hidden" name="AWSAccessKeyId"  value="CancelFulfillmentOrder" >
-<input type="hidden" name="MWSAuthToken"  value="CancelFulfillmentOrder" >    
+ 
     
     
     
@@ -33,6 +29,13 @@
     
   </div>
 </div>
+    
+    
+    <!--hiddenfields--> 
+<input type="hidden" id="Action" name="Action"  value="CancelFulfillmentOrder" >
+<input type="hidden" name="Version"  value="CancelFulfillmentOrder" >
+<input type="hidden" name="AWSAccessKeyId"  value="CancelFulfillmentOrder" >
+<input type="hidden" name="MWSAuthToken"  value="CancelFulfillmentOrder" >   
 
 <!-- Text input-->
 <div class="form-group">
